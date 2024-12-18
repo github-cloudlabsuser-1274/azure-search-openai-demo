@@ -1,3 +1,12 @@
+# Backend Application
+
+## Overview
+This backend application is part of the larger project and is responsible for handling the server-side logic, database interactions, and API endpoints.
+
+## Requirements
+The backend application has the following dependencies listed in the `requirements.txt` file:
+
+\```plaintext
 aiofiles==23.2.1
 aiohttp==3.9.3
 aiosignal==1.3.1
@@ -22,6 +31,7 @@ click==8.1.7
 cryptography==42.0.1
 deprecated==1.2.14
 distro==1.9.0
+ecdsa==0.18.0
 fixedint==0.1.6
 flask==3.0.1
 frozenlist==1.4.1
@@ -99,3 +109,13 @@ wrapt==1.16.0
 wsproto==1.2.0
 yarl==1.9.4
 zipp==3.17.0
+\```
+
+## Setup
+To set up the backend application, follow these steps:
+
+1. Clone the repository.
+2. Navigate to the `app/backend` directory.
+3. Install the dependencies using `pip`:
+   ```sh
+   pip install -r requirements.txt

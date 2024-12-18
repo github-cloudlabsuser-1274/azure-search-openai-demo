@@ -1,3 +1,4 @@
+# Import necessary standard libraries
 import os
 from abc import ABC
 from dataclasses import dataclass
@@ -27,6 +28,9 @@ from openai.types.chat import ChatCompletionMessageParam
 from core.authentication import AuthenticationHelper
 from text import nonewlines
 
+
+# Define your classes, functions, and other logic here
+# Example:
 
 @dataclass
 class Document:
