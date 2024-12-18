@@ -110,7 +110,6 @@ wsproto==1.2.0
 yarl==1.9.4
 zipp==3.17.0
 \```
-
 ## Setup
 To set up the backend application, follow these steps:
 
